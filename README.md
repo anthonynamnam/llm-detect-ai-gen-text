@@ -5,6 +5,8 @@
 Anthony Kwok - [Github](https://github.com/anthonynamnam) | [Kaggle](https://www.kaggle.com/anthonynam)  
 Stephen Lee - [Github](https://github.com/sdlee94) | [Kaggle](https://www.kaggle.com/sdlee94)  
 Thomas Chong - [Github](https://github.com/thomas-chong) | [Kaggle](https://www.kaggle.com/chongcht710) 
+Shreyas Singh - [Github](https://github.com/SinghShreyas) | [Kaggle](https://www.kaggle.com/sinshreyas) 
+Srikar Parimi - [Github](https://github.com/MaheshSrikar) | [Kaggle](https://www.kaggle.com/maheshsrikar) 
 
 <hr style="border-top: 3px double #8c8b8b;">
 
