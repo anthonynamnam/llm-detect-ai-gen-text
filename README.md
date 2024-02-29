@@ -83,4 +83,14 @@ Prompt engineering is a very accesible and inexpensive way to obtain an LLM with
 - **Reparameterize:** create low-rank representation of initial model weights to reduce amount of parameters to fine-tune (e.g. LoRA)
 - **Additive:** add new trainable layers or parameters to model
 
+---
+
+## 1️⃣ Lower-Rank Adaptation (LoRA)
+
+LoRA is one of the PEFT Fine-tuning methods. Instead of modifying the parameters in the Large Language Model **(e.g. 1024 x 1024 = 1,048,576 parameters)**, LoRA add another matrix X with the same size (1024 x 1024) in each layer in the model archtecture and decompose the add-on matrix into two smaller matrix **(e.g. matrix A with 1024 x 8 &  matrix B with 8 x 1024)**. So in total, the number of parameters reduces from 1,048,576 to 16,384, approximately 1.5% of the parameters of the original archtecture.
+
+> Mathematically speaking, You can obtain Matrix X by performing matrix multiplication of **Matrix A** and **Matrix B**.
+
+This is an example to illustrate how to apply LoRA to fine tune a LLM. [Sample Code](https://github.com/anthonynamnam/llm-detect-ai-gen-text/blob/main/lora-fine-tuning-with-distilbert.ipynb)
+
 <hr style="border-top: 3px double #8c8b8b;">
